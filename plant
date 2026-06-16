@@ -1,0 +1,12 @@
+/projeto-plataforma-aulas
+├── /backend              # API Fastify
+│   ├── /routes           # Definição dos endpoints
+│   ├── /services         # Lógica de upload/banco de dados
+│   ├── server.js         # Arquivo principal
+│   └── .env              # Credenciais do Neon e Storage
+├── /frontend             # App Next.js (App Router)
+│   ├── /src
+│   │   ├── /app          # Páginas e rotas
+│   │   ├── /components   # Componentes React (Player, Form)
+│   └── .env.local        # URL da API
+└── package.json          # Apenas para scripts de inicialização (opcional)

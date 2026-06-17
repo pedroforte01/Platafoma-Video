@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 // Endereço da API Fastify
-const API = 'http://localhost:3334'
+const API = 'https://platafoma-video-production.up.railway.app'
 
 export default function Home() {
   // ============================================================

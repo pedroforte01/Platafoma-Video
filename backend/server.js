@@ -102,7 +102,7 @@ app.delete('/videos/:id', async (request, reply) => {
 
 app.listen({
     host: '0.0.0.0',
-    port: 3334
+    port: process.env.PORT || 3334
 }).then(() => {
     console.log('🚀 API de Vídeos Online em http://localhost:3334')
 })

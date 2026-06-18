@@ -15,7 +15,8 @@ const supabase = createClient(
 const app = fastify()
 
 app.register(cors, {
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000', 'https://platafoma-video.vercel.app'],
+    methods: ['GET', 'POST', 'DELETE']
     methods: ['GET', 'POST', 'DELETE']
 })
 
